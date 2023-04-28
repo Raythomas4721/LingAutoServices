@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./image/webicon.JPG" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+    <title>服務內容 | LingAuto Services</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./image/logo.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul
+            class="ms-5 navbar-nav ms-lg-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center me-5"
+          >
+            <li class="nav-item me-lg-4">
+              <a class="nav-link lightBlue" aria-current="page" href="./index_ch.html"
+                >首頁</a
+              >
+            </li>
+            <li class="nav-item me-lg-4">
+              <a class="nav-link lightBlue active" href="#">服務</a>
+            </li>
+            <li class="nav-item me-lg-4">
+              <a class="nav-link lightBlue" href="#">常見問題</a>
+            </li>
+            <li><a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="./services.html"><i class="bi bi-translate"></i></a></li>
+          </ul>
+          <a class="btn btn-primary appointment animate__animated animate__tada" href="https://calendly.com/pcheng25-2/make-reservation">
+            馬上來預約保養!
+          </a>
+        </div>
+      </div>
+    </nav>
+    <a class="container-fluid btn btn-primary appointment d-md-none my-3 py-2"
+        href="https://calendly.com/pcheng25-2/make-reservation">
+        馬上來預約保養!
+    </a>
+    <div class="container">
+        <h2 class="text-center fw-bold py-5">保養服務價格</h2>
+        <div class="engine-main d-flex flex-column align-items-center" >
+            <h4>機油保養價目表</h4>
+            <img class="w-50 rounded-5 py-3 " src="./image/tim-mossholder-V37iTrYZz2E-unsplash.jpg" alt="" data-aos="fade-up">
+            <table class="table table-primary table-striped text-center mb-5" data-aos="zoom-out-right" data-aos-duration="1500">
+                <thead>
+                  <tr>
+                    <th scope="col">級別</th>
+                    <th scope="col">價格範圍(普通級)</th>
+                    <th scope="col">價格範圍(高端級)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">超豪華/超級跑車</th>
+                    <td>$300</td>
+                    <td>$500</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">豪華車</th>
+                    <td>$150</td>
+                    <td>$200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">中高檔車</th>
+                    <td>$100</td>
+                    <td>$120</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">經濟車</th>
+                    <td>$50</td>
+                    <td>$75</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="air-con-main d-flex flex-column align-items-center" >
+            <h4>空調保養價目表</h4>
+            <img class="w-50 rounded-5 py-3" src="./image/tobias-a-muller-rOLKpojjbGM-unsplash.jpg" alt="" data-aos="fade-up">
+            <table class="table table-primary table-striped text-center mb-5 d-none d-md-table" data-aos="zoom-out-left" data-aos-duration="1500">
+                <thead>
+                  <tr>
+                    <th scope="col-2">級別</th>
+                    <th scope="col">價格範圍(僅加氟) </th>
+                    <th scope="col">價格範圍(僅更換過濾器)</th>
+                    <th scope="col">價格範圍(加氟和清洗風道)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">超豪華/超級跑車</th>
+                    <td>$150</td>
+                    <td>$175</td>
+                    <td>$275</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">豪華車</th>
+                    <td>$150</td>
+                    <td>$155</td>
+                    <td>$255</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">中高檔車</th>
+                    <td>$150</td>
+                    <td>$75</td>
+                    <td>$175</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">經濟車</th>
+                    <td>$95</td>
+                    <td>$35</td>
+                    <td>$135</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table
+          class="table table-primary table-striped text-center mb-5 d-sm-table d-md-none"
+          data-aos="zoom-out-right"
+          data-aos-duration="1500"
+        >
+          <thead>
+            <tr>
+              <th scope="col-2">級別</th>
+              <th scope="col">價格範圍(僅加氟)</th>
+              <th scope="col">價格範圍(僅更換過濾器)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">超豪華/超級跑車</th>
+              <td>$150</td>
+              <td>$175</td>
+            </tr>
+            <tr>
+              <th scope="row">豪華車</th>
+              <td>$150</td>
+              <td>$155</td>
+            </tr>
+            <tr>
+              <th scope="row">中高檔車</th>
+              <td>$150</td>
+              <td>$75</td>
+            </tr>
+            <tr>
+              <th scope="row">經濟車</th>
+              <td>$95</td>
+              <td>$35</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <table
+          class="table table-primary table-striped text-center mb-5 d-sm-table d-md-none"
+          data-aos="zoom-out-left"
+          data-aos-duration="1500"
+        >
+          <thead>
+            <tr>
+              <th scope="col">Level</th>
+              <th scope="col">
+                價格範圍(加氟和清洗風道)
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">超豪華/超級跑車</th>
+              <td>$275</td>
+            </tr>
+            <tr>
+              <th scope="row">豪華車</th>
+              <td>$255</td>
+            </tr>
+            <tr>
+              <th scope="row">中高檔車</th>
+              <td>$175</td>
+            </tr>
+            <tr>
+              <th scope="row">經濟車</th>
+              <td>$135</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <div class="brake-main d-flex flex-column align-items-center" >
+            <h4>煞車保養價目表</h4>
+            <img class="w-50 rounded-5 py-3" src="./image/jaddy-liu-S4_-bHtzCBU-unsplash.jpg" alt="" data-aos="fade-up">
+            <table class="table table-primary table-striped text-center mb-5" data-aos="zoom-out-right" data-aos-duration="1500">
+                <thead>
+                  <tr>
+                    <th scope="col">級別</th>
+                    <th scope="col">價格範圍 煞車片(對)</th>
+                    <th scope="col">價格範圍 煞車片和盤(對)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">超豪華/超級跑車</th>
+                    <td>$300</td>
+                    <td>$500</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">豪華車</th>
+                    <td>$150</td>
+                    <td>$200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">中高檔車</th>
+                    <td>$100</td>
+                    <td>$120</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">經濟車</th>
+                    <td>$50</td>
+                    <td>$75</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" >更換煞車油(全部車型)</th>
+                    <td>$125</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+        </div>
+        <div class="note ">
+          <ul class="ps-0">
+            <li>根據美國市場的情況，以下是一些常見汽車品牌按找檔次分類的列表，僅供參考:</li>
+            <li>1.超豪華車:阿斯頓馬丁、藍寶堅尼、邁凱倫、法拉利、保時捷等</li>
+            <li> 2.豪華車:奔馳、寶馬、奧迪、凱迪拉克、捷豹、路虎、沃爾沃、英菲尼迪、雷克薩斯等</li>
+            <li>3. 中高檔車: 豐田、本田、福特、雪弗蘭、日產、大眾、現代、起亞、斯巴魯等</li>
+            <li>4.經濟車:福特、雪弗蘭、本田、豐田、尼桑、起亞、現代等</li>
+          </ul>
+        </div>
+    </div>
+    
+    <footer>
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-sm-12 col-lg-6">
+            <div class="footer-logo">
+              <img src="./image/logo.jpg" alt="logo" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div class="footer-link row">
+              <div class="col-sm-12 col-lg-4">
+                <div class="footer-company">
+                  <h5 class="fw-bold">關於我們</h5>
+                  <ul>
+                    <li><a href="#">服務內容</a></li>
+                    <li><a href="#">常見問題</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-8">
+                <div class="footer-info">
+                  <h5 class="fw-bold">更多資訊</h5>
+                  <ul>
+                    <li><a href="#">電話: +1(909) 978-9555</a></li>
+                    <li><a href="#">電子郵件: lingautoservices@gmail.com</a></li>
+                    <li>
+                      <a href="#"
+                        >公司地址: 19759 Valley Blvd, Walnut, CA 91789</a
+                      >
+                    </li>
+                    <li>周一至周五: 0830~1730</li>
+                    <li>週六: 0830~1600</li>
+                    <li>每個月末的周六不營業</li>
+                    <li>周日休息</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center pb-3">Copyright © 2023 Ling Auto Services</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="all.js"></script>
+  </body>
+</html>

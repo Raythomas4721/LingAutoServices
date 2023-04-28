@@ -1,0 +1,170 @@
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: Microsoft JhengHei, Microsoft YaHei, MingLiU, Arial, serif;
+  background-color: #efefef;
+}
+.bg-main {
+  background-color: #efefef;
+}
+
+.darkBlue {
+  color: #244289;
+}
+.lightBlue {
+  color: #235ad2;
+}
+.redLine {
+  background-color: #d0112b;
+}
+.navbar-brand {
+  width: 230px;
+}
+.navbar {
+  box-shadow: 0 4px 6px gray;
+}
+.navbar a:hover {
+  color: #235ad2;
+  background-color: #efefef;
+}
+.active {
+  font-weight: bold;
+}
+.unit-title {
+  padding-top: 80px;
+  padding-bottom: 16px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #d0112b;
+}
+.rectangle {
+    background-color: #efefef;
+    background-image: url(./image/Rectangle\ 46.png);
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}
+.about p {
+  text-indent: 50px;
+  line-height: 2.5rem;
+}
+.service-box .card {
+  height: 260px;
+  background-color: #d5d6f9;
+  border-radius: 15px;
+}
+.service-box .card img {
+  width: 80px;
+  height: 80px;
+}
+.service-box .card:hover {
+    color: white;
+    background-color:#244289;
+}
+.contact {
+  background-color: #e7e5ea;
+  background-image: url(./image/martin-katler-7RzPuV3-xyI-unsplash\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  background-blend-mode: soft-light;
+}
+.contact form {
+  width: 480px;
+}
+footer {
+    background-color: #fff;
+}
+.footer-logo {
+    width: 260px;
+    padding-bottom: 24px;
+} 
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #235ad2;
+}
+footer ul {
+    padding-left: 0;
+    padding-top: 16px;
+}
+/*swiper*/
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+swiper-container {
+  width: 80%;
+  height: 500px;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .nav-item {
+    text-align: center;
+  }
+  .appointment {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .footer-logo {
+    margin: auto;
+  }
+  .footer-link, .footer-info {
+    text-align: center;
+  }
+  footer h5 {
+    padding-top: 24px;
+  }
+  footer li{
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about p {
+    line-height: 1.5rem;
+  }
+  swiper-container {
+    width: 80%;
+    height: auto;
+  }
+  .service-box {
+    justify-content: center;
+  }
+  .service-box .col-sm-12 {
+    width: 90%;
+  }
+  
+}
